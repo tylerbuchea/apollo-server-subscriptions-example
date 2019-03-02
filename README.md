@@ -17,7 +17,7 @@ You should get a new message every second 🍻
 
 ```graphql
 subscription {
-  postAdded
+  count
 }
 ```
 
