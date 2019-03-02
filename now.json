@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "name": "apollo-server-subscriptions-example",
+  "builds": [{ "src": "index.js", "use": "@now/node" }]
+}

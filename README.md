@@ -3,13 +3,13 @@
 ## Setup
 
 ```bash
-yarn install
+./ops setup
 ```
 
 ## Develop
 
 ```bash
-npx nodemon index.js
+./ops start
 ```
 
 Visit: http://localhost:4000 and then run the query below.
