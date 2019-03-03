@@ -1,5 +1,6 @@
 {
   "version": 2,
   "name": "apollo-server-subscriptions-example",
-  "builds": [{ "src": "index.js", "use": "@now/node" }]
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "routes": [{ "src": "/.*", "dest": "index.js" }]
 }

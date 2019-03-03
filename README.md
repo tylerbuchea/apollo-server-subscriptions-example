@@ -1,5 +1,7 @@
 # Apollo Server Subscriptions Example
 
+[TRY THE DEMO!]()
+
 ## Setup
 
 ```bash
@@ -21,6 +23,12 @@ subscription {
 }
 ```
 
+## Deploy
+
+```bash
+./ops ship
+```
+
 ## Resources
 
 - [Apollo GraphQL Subscriptions](https://www.apollographql.com/docs/apollo-server/v2/features/subscriptions.html#Subscriptions-Example)
@@ -30,3 +38,5 @@ subscription {
 - [subscriptions-transport-ws](https://github.com/apollographql/subscriptions-transport-ws/tree/master/docs)
 - [Apollo Local State Subscriptions](https://github.com/apollographql/apollo-link-state/issues/138)
 - [Local State Subscription workaround](https://github.com/apollographql/apollo-link-state/issues/137)
+- [Apollo Server Getting Started](https://www.apollographql.com/docs/apollo-server/getting-started.html)
+- [Zeit Now Version 2 Apollo Server Example](https://github.com/zeit/now-examples/tree/master/apollo)

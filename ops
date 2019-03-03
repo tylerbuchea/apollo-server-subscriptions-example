@@ -22,6 +22,10 @@ elif [ $script == "build" ] ; then
   echo "building"
   yarn build
 
+elif [ $script == "logs" ] ; then
+  echo "showing logs"
+  now logs apollo-server-subscriptions-example
+
 elif [ $script == "ship" ] ; then
   echo "shipping"
   now
